@@ -1,0 +1,4 @@
+Drop table if exists Certificate;
+  create table Certificate (roll_no int , subject varchar(30) not null , marks int );
+  insert into Certificate (roll_no , subject , marks)
+  values (1," " ,60);
